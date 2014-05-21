@@ -8,6 +8,7 @@ endif
 
 python << endpython
 import re
+import vim
 
 # http://stackoverflow.com/questions/2695443/can-you-access-registers-from-python-functions-in-vim
 def set_register(reg, value):
